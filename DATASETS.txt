@@ -1,0 +1,28 @@
+Our dataset contains data about movies in the imdb database. There is information about the titles, alphanumeric identifies for titles, year of release, cast members, cast member jobs, ratings, votes for each movie, name of the seasons of tv shows, data like the birth and death years of cast and crew members, running time, etc. 
+
+Data Table 1
+titleId	ordering	title	region	language	types	attributes	isOriginalTitle
+tt0000001	1	Carmencita - spanyol tánc	HU	\N	imdbDisplay	\N	0
+tt0000001	2	Καρμενσίτα	GR	\N	\N	\N	0
+tt0000001	3	Карменсита	RU	\N	\N	\N	0
+tt0000001	4	Carmencita	US	\N	\N	\N	0
+tt0000001	5	Carmencita	\N	\N	original	\N	1
+
+Data Table 2
+tconst	titleType	primaryTitle	originalTitle	isAdult	startYear	endYear	runtimeMinutes	genres
+tt0000001	short	Carmencita	Carmencita	0	1894	\N	1	Documentary,Short
+tt0000002	short	Le clown et ses chiens	Le clown et ses chiens	0	1892	\N	5	Animation,Short
+tt0000003	short	Pauvre Pierrot	Pauvre Pierrot	0	1892	\N	4	Animation,Comedy,Romance
+tt0000004	short	Un bon bock	Un bon bock	0	1892	\N	\N	Animation,Short
+tt0000005	short	Blacksmith Scene	Blacksmith Scene	0	1893	\N	1	Comedy,Short
+
+Data Table 3
+tconst	ordering	nconst	category	job	characters
+tt0000001	1	nm1588970	self	\N	["Herself"]
+tt0000001	2	nm0005690	director	\N	\N
+tt0000001	3	nm0374658	cinematographer	director of photography	\N
+tt0000002	1	nm0721526	director	\N	\N
+tt0000002	2	nm1335271	composer	\N	\N
+
+
+By analyzing this dataset we hope to look for how the release of hollywood movies affects the release of bollywood movies. We hope to see how the release dates/genre/cast/etc. members of hollywood movies affects bollywood movies, if at all. We are also looking to see how hollywood movies ratings affect bollywood movie ratings.
