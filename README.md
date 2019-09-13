@@ -1,5 +1,4 @@
 ShawnRussell2019
-Shawn Xu
-shawnxu0@gmail.com
-Russell Dickerson
-russelldickerson@utexas.edu
+
+Shawn Xu, sx935, shawnxu0@gmail.com
+Russell Dickerson, rsd742, russelldickerson@utexas.edu
