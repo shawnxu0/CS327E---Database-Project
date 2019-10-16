@@ -1,5 +1,5 @@
---Writers column in Crew has multiple foreign keys in column separated by commas
---primary professions column in People has multiple professions in one string separated by commas
---knownForTitles column in People has multiple foreign keys in one string separated by commas
---genres column in title_basics has multiple genres in one column separated by commas
---characters column in Principles has multiples character inside of brackets separated by commas
+--Writers column in Crew has multiple foreign keys in column separated by commas --TA said no need to change
+--primary professions column in People has multiple professions in one string separated by commas --Fixed
+--knownForTitles column in People has multiple foreign keys in one string separated by commas --TA said no need to change
+--genres column in title_basics has multiple genres in one column separated by commas --Fixed
+--characters column in Principles has multiples character inside of brackets separated by commas --TA said no need to change
