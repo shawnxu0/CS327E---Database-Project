@@ -56,4 +56,7 @@ tt0000003	short	Pauvre Pierrot	Pauvre Pierrot	0	1892		4	Animation,Comedy,Romance
 tt0000004	short	Un bon bock	Un bon bock	0	1892			Animation,Short
 tt0000005	short	Blacksmith Scene	Blacksmith Scene	0	1893		1	Comedy,Short
 
-By analyzing this dataset we hope to look for how the release of hollywood movies affects the release of bollywood movies. We hope to see how the release dates/genre/cast/etc. members of hollywood movies affects bollywood movies, if at all. We are also looking to see how hollywood movies ratings affect bollywood movie ratings.
+By analyzing this dataset we hope to look for how the release of hollywood movies affects the popularity and release of music. We hope to see how the release dates/genre/cast/etc. members of hollywood movies affects the music industry/the performance of songs, if at all. We are also looking to see how hollywood movies ratings and crew are related to the ratings and artists of top performing songs.
+
+Dataset 2:
+This dataset contains weekly and yearly billboard ratings for songs that have made the billboard lists. Information in the dataset includes the name of the song, artist, year of the billboard ranking, the ranking number, and spotify rankings for November of 2018. There is also radio ranking data for older songs played on WCBS-FM, one of the oldest radio stations in US, specializing in classic oldies.
