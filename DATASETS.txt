@@ -59,4 +59,29 @@ tt0000005	short	Blacksmith Scene	Blacksmith Scene	0	1893		1	Comedy,Short
 By analyzing this dataset we hope to look for how the release of hollywood movies affects the popularity and release of music. We hope to see how the release dates/genre/cast/etc. members of hollywood movies affects the music industry/the performance of songs, if at all. We are also looking to see how hollywood movies ratings and crew are related to the ratings and artists of top performing songs.
 
 Dataset 2:
-This dataset contains weekly and yearly billboard ratings for songs that have made the billboard lists. Information in the dataset includes the name of the song, artist, year of the billboard ranking, the ranking number, and spotify rankings for November of 2018. There is also radio ranking data for older songs played on WCBS-FM, one of the oldest radio stations in US, specializing in classic oldies.
+This dataset contains weekly and yearly billboard ratings for songs that have made the billboard lists. Information in the dataset includes the name of the song, artist, year of the billboard ranking, the ranking number, and spotify rankings for November of 2018. There is also radio ranking data for older songs played on WCBS-FM, one of the oldest radio stations in US, specializing in classic oldies. This dataset is from kaggle : https://www.kaggle.com/miteshsingh/hollywood-music-dataset 
+
+Table 1 (weekly_ratings)
+date	Rank	Title	Artist	Weeks on chart	year	Spotify_Popularity	Artist_Popularity	week_rating_ID
+1/1/1955	1	Poor Little Fool	Ricky Nelson	1	1955		56	1
+1/1/1955	2	Patricia	Perez Prado And His Orchestra		1955		12	2
+1/1/1955	3	Splish Splash	Bobby Darin		1955		62	3
+1/1/1955	4	Hard Headed Woman	Elvis Presley With The Jordanaires		1955			4
+1/1/1955	5	When	Kalin Twins		1955		24	5
+
+Table 2 (yearly_ratings)
+year	Rank	Artist	Title	Spotify_Popularity	Artist_Popularity	year_rating_id
+1960	1	Percy Faith	Theme From â€œA Summer Placeâ€	52	52	1
+1960	2	Jim Reeves	Heâ€™ll Have To Go		60	2
+1960	3	Everly Brothers	Cathyâ€™s Clown		62	3
+1960	4	Johnny Preston	Running Bear		34	4
+1960	5	Mark Dinning	Teen Angel		22	5
+
+Table 3 (radio_ratings)
+Rank	Year	Artist	Song1	Chart_Year	radio_rating_ID
+485	1979	Blondie	11	1983	4968
+292	1979	Blondie	11	1981	5590
+70	1979	Blondie	11	1979	6168
+412	1962	Beach Boys	409	1987	2860
+315	1962	Beach Boys	409	1979	6663
+
