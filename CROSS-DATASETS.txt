@@ -1,0 +1,3 @@
+Query 1. A query using join would be used that selects data on ratings for songs and for movies that occur in the same year. No transformations needed as the data is standardized and all three tables are very clean.
+Query 2. A query using join and count() would be used that selects data on names of songs and movies and counts the number of each and groups them by year. No transformations needed as the data is standardized and all three tables are very clean.
+Query 3. A query using join and avg() would be used that selects data on ratings from movies and songs and returns the average rating grouped by year. No transformations needed as the data is standardized and all three tables are very clean.
