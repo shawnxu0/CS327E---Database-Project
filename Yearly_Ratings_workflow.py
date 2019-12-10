@@ -80,11 +80,11 @@ with models.DAG(
             bash_command=bq_query_start + "'" + create_radio_sql + "'", 
             trigger_rule='one_success')
 
-    Yearly_Ratings_beam = BashOperator(
+    create_Years_Charting = BashOperator(
             task_id='Yearly_Ratings_beam',
             bash_command='python /home/jupyter/airflow/dags/transform_Yearly_Ratings_cluster_airflow.py')
 
     create_staging_dataset >> create_modeled_dataset >> split
-    split >> load_Yearly_Ratings >> create_Yearly_Ratings >> Yearly_Ratings_beam
+    split >> load_Yearly_Ratings >> create_Yearly_Ratings >> create_Years_Charting
     split >> load_Weekly_Ratings >> create_Weekly_Ratings
     split >> load_Radio_Ratings >> create_Radio_Ratings
