@@ -81,7 +81,7 @@ with models.DAG(
             trigger_rule='one_success')
 
     create_Years_Charting = BashOperator(
-            task_id='Yearly_Ratings_beam',
+            task_id='create_Years_Charting',
             bash_command='python /home/jupyter/airflow/dags/transform_Yearly_Ratings_cluster_airflow.py')
 
     create_staging_dataset >> create_modeled_dataset >> split
